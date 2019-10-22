@@ -1,6 +1,10 @@
 server.port: 7003
 
-management.endpoints.web.exposure.include: *
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 
 spring:
   datasource:
