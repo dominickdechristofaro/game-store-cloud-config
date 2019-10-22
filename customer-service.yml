@@ -5,3 +5,4 @@ spring:
     url:  jdbc:mysql:http://localhost:3306/customer?useSSL=false
     username: root
     password: rootroot
+    driver-class-name: com.mysql.jdbc.Driver
